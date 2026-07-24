@@ -60,7 +60,6 @@ brand = "Piko"
 
 [X.patches]
 "github:crimera/piko" = ["Browse tweet object", "Dynamic color"]
-"gitlab:inotia00/x-shim" = []
 
 [Twitter]
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
@@ -69,12 +68,12 @@ brand = "Piko"
 
 [Twitter.patches]
 "github:crimera/piko" = ["Bring back twitter", "Browse tweet object", "Dynamic color"]
-"gitlab:inotia00/x-shim" = []
 
 [Instagram]
 # uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram"
 github-dlurl = "https://github.com/krvstek/uni-storage/releases/tag/instagram"
+patcher-args = "-e 'Theme' -Oamoled=true"
 brand = "Piko"
 arch = "arm64-v8a"
 
